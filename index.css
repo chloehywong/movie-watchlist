@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-image: url(images/header-bg.jpg);
+    background-size: cover;
+    background-position: 90% 27%;;
+    height: 230px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: white; 
+    font-size: 3rem;
+}
+
+.navbar-btn {
+    font-size: 1.25rem;
+    color: black;
+    border: 3px solid black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px; 
+}
+
+.icon {
+    padding-left: 25px;
+    background: url(icons/search-icon.png) no-repeat left;
+    background-size: 20px;
+    width: 450px;
+    height: 45px;
+    font-size: 1rem;
+    border: 2px solid lightgrey; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+  }
+
+  .search-btn {
+    font-size: 1rem;
+    padding: 5px 15px;
+    border: none; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+  }
+
+  .film-info {
+    text-align: center;
+  }
+
+  .film-icon {
+    width: 45px;
+    height: 40px;
+    padding-top: 100px;
+  }
+
+  .greeting-text, .unable-text, .watchlist-greeting-text {
+    color: lightgrey;
+    font-size: 25px;
+  }
+
+  .unable-text, .watchlist-greeting-text {
+    padding-top: 100px;
+  }
+
+  /* .....film info....... */
+
+  .info-container {
+    padding-top: 30px; 
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .info-sub-container {
+    display: flex;
+    width: 80%; 
+    height: 320px;
+    margin: 0 auto; 
+    border-bottom: 2px solid lightgrey;
+  }
+
+  .info-inner-child {
+    width: 550px; 
+    margin: 20px 0 0 20px;
+  }
+
+  .info-child {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-child-1 {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center;
+  }
+
+  .info-poster {
+    height: 300px;
+    width: 210px;
+    border-radius: 5px;
+  }
+
+  .info-title {
+    padding-right : 20px;
+  }
+
+  .info-star-icon {
+    width: 15px; 
+    height: 15px;
+    padding-right: 5px;
+  }
+
+  .info-child-2 {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .info-runtime {
+    padding-right: 30px;
+  }
+  
+  .info-genre {
+    padding-right: 30px;
+  }
+
+  .add-btn, .add-btn-watchlist {
+    width: 25px;
+    height: 25px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+
+  .info-watchlist {
+    padding-left: 5px;
+  }
+  
+  .info-intro {
+    text-align: left;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #6B7280;
+  }
+
+
+  /* .......Watchlist page...... */
+
+  .add-btn-group {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .add-movie-text {
+    padding-left: 10px;
+  }
+
+
+
+
+
+  
